@@ -1,8 +1,10 @@
-package br.com.jardiano.countriesapp;
+package br.com.jardiano.countriesapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.com.jardiano.countriesapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -9,7 +9,7 @@ import java.util.List;
 import br.com.jardiano.countriesapp.model.CountryModel;
 
 public class ListViewModel extends ViewModel {
-    public MutableLiveData<List<CountryModel>> countries = new MutableLiveData<List<CountryModel>>()
+    public MutableLiveData<List<CountryModel>> countries = new MutableLiveData<List<CountryModel>>();
     public MutableLiveData<Boolean> countryLoadErro = new MutableLiveData<Boolean>();
     public MutableLiveData<Boolean> loading = new MutableLiveData<Boolean>();
 

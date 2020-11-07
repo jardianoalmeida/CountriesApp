@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 adapter.updateCountries(countryModels);
             }
         });
-        viewModel.countryLoadErro.observe(this, isError -> {
+        viewModel.countryLoadError.observe(this, isError -> {
             if(isError){
                 listError.setVisibility(isError ? View.VISIBLE : View.GONE);
             }

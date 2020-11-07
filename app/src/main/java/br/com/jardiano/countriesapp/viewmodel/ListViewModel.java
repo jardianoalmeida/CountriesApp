@@ -13,7 +13,7 @@ public class ListViewModel extends ViewModel {
     public MutableLiveData<Boolean> countryLoadErro = new MutableLiveData<Boolean>();
     public MutableLiveData<Boolean> loading = new MutableLiveData<Boolean>();
 
-    protected void refresh(){
+    public void refresh(){
         fetchCountries();
     }
 
